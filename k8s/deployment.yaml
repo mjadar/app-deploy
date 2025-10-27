@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: flask-demo
-          image: ghcr.io/mjadar/flask-demo:latest
+          image: ghcr.io/mjadar/flask-demo:4
           ports:
             - containerPort: 5000
           env:
